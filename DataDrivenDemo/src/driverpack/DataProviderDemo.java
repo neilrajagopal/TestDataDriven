@@ -33,6 +33,7 @@ public class DataProviderDemo {
 		driver.switchTo().alert().accept();
 	}
 //	sample code for github validation
+	//sample code two
 //	@Test(dataProvider = "dpx", dataProviderClass=TestData.class)
 	public void g(String un, String pwd, String expWinTitle) {
 		System.out.println(un + " -----> "+ pwd);
