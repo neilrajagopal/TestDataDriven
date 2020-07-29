@@ -32,7 +32,7 @@ public class DataProviderDemo {
 		l.clickObject(or.lnkSignOff, "SignOff link");
 		driver.switchTo().alert().accept();
 	}
-
+//	sample code for github validation
 //	@Test(dataProvider = "dpx", dataProviderClass=TestData.class)
 	public void g(String un, String pwd, String expWinTitle) {
 		System.out.println(un + " -----> "+ pwd);
